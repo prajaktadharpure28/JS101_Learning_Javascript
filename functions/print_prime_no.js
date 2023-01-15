@@ -5,14 +5,14 @@ function printPrimes(limit) {
       let isPrime = true;
   
       for (let j = 2; j < i; j++) {
-        if (number % factor === 0) {
+        if (i % j === 0) {
           isPrime = false;
           break;
         }
       }
   
       if (isPrime) 
-      console.log(number);
+      console.log(i);
     }
   }
   
