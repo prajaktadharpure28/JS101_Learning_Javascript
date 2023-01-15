@@ -1,10 +1,10 @@
 // Use the above function to print the Primes from 2 to a given limit
 
 function printPrimes(limit) {
-    for (let number = 2; number <= limit; number++) {
+    for (let i = 2; i <= limit; i++) {
       let isPrime = true;
   
-      for (let factor = 2; factor < number; factor++) {
+      for (let j = 2; j < i; j++) {
         if (number % factor === 0) {
           isPrime = false;
           break;
